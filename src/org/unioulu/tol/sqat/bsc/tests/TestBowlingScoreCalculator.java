@@ -61,10 +61,10 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void testBonusCalculate() {
 		BowlingGame game = new BowlingGame();
-		Frame frame = new Frame(6, 4);
+		Frame frame = new Frame(10, 0);
 		game.addFrame(frame);
 		game.setBonus(2, 3);
-		assertEquals(2, game.actualbonus);
+		assertEquals(5, game.actualbonus);
 	}
 
 }
