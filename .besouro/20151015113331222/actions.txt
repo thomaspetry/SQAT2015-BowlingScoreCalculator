@@ -47,3 +47,4 @@ RefactoringAction 1444902573612 TestBowlingScoreCalculator.java ADD void testSco
 RefactoringAction 1444902581350 TestBowlingScoreCalculator.java RENAME testScoreOfSpare()/2=>void testScoreOfAll() METHOD
 RefactoringAction 1444902582894 TestBowlingScoreCalculator.java RENAME testScoreOfAll()=>void testScoreOfAllFrames() METHOD
 EditAction 1444902676151 TestBowlingScoreCalculator.java 1160 4 16 4
+EditAction 1444902676260 Frame.java 987 6 11 0
