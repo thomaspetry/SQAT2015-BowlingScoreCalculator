@@ -47,10 +47,13 @@ public class TestBowlingScoreCalculator {
 		BowlingGame game = new BowlingGame();
 		Frame frame1 = new Frame(2, 3);
 		game.addFrame(frame1);
+		game.setBonus(2, 3);
 		Frame frame2 = new Frame(6, 4);
 		game.addFrame(frame2);
+		game.setBonus(6, 4);
 		Frame frame3 = new Frame(2, 3);
 		game.addFrame(frame3);
+		game.setBonus(2, 3);
 		int score = game.score();
 		assertEquals(22,score);
 	}
