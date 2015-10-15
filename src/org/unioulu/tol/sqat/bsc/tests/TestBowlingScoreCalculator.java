@@ -13,7 +13,7 @@ public class TestBowlingScoreCalculator {
 	public void testScore4And5Returns9() {
 		Frame frame = new Frame(5, 4);
 		int score = frame.score();
-		assertEquals(8,score);
+		assertEquals(9,score);
 		 
 		
 	}
