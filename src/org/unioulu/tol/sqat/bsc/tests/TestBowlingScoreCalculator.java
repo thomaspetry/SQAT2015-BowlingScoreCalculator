@@ -22,5 +22,12 @@ public class TestBowlingScoreCalculator {
 		int score = frame.score();
 		assertEquals(10,score);
 	}
+	
+	@Test
+	public void testScoreOfSpare() {
+		Frame frame = new Frame(6, 4);
+		int score = frame.score();
+		assertEquals(10,score);
+	}
 
 }
