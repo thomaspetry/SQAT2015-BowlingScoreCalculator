@@ -20,7 +20,6 @@ public class BowlingGame {
 			actualbonus = firstThrow + secondThrow;
 		if (frames.get(frames.size()-1).isSpare())
 			actualbonus = firstThrow;
-		actualbonus = firstThrow;
 	}
 	
 	public int score(){
