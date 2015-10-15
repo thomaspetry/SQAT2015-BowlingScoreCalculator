@@ -43,6 +43,15 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
+	public void testBonusCalculateWithSpare() {
+		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(6, 4);
+		game.addFrame(frame);
+		game.setBonus(2, 3);
+		assertEquals(2, game.actualbonus);
+	}
+	
+	@Test
 	public void testScoreOfAllFramesWithSpare() {
 		BowlingGame game = new BowlingGame();
 		Frame frame1 = new Frame(2, 3);
@@ -58,13 +67,6 @@ public class TestBowlingScoreCalculator {
 		assertEquals(22,score);
 	}
 	
-	@Test
-	public void testBonusCalculateWithSpare() {
-		BowlingGame game = new BowlingGame();
-		Frame frame = new Frame(6, 4);
-		game.addFrame(frame);
-		game.setBonus(2, 3);
-		assertEquals(2, game.actualbonus);
-	}
+
 
 }
