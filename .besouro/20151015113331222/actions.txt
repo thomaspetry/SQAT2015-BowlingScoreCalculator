@@ -135,3 +135,10 @@ UnitTestSessionAction 1444903945730 TestBowlingScoreCalculator FAIL
 RefactoringAction 1444903960924 TestBowlingScoreCalculator.java REMOVE testBonusCalculateWithSpare() METHOD
 RefactoringAction 1444903963514 TestBowlingScoreCalculator.java ADD void testBonusCalculateWithSpare() METHOD
 EditAction 1444903965854 TestBowlingScoreCalculator.java 1590 6 33 6
+UnitTestCaseAction 1444903966150 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444903966150 TestBowlingScoreCalculator FAIL
+UnitTestCaseAction 1444904255875 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444904255875 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444904279650 TestBowlingScoreCalculator.java ADD void testScoreOfAllFramesWithSpare()/2 METHOD
+RefactoringAction 1444904283269 TestBowlingScoreCalculator.java RENAME testScoreOfAllFramesWithSpare()/2=>void testScoreOfAllFramesWithStrike() METHOD
+EditAction 1444904287294 TestBowlingScoreCalculator.java 2007 7 45 7
