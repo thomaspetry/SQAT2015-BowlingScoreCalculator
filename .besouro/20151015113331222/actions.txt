@@ -18,3 +18,6 @@ RefactoringAction 1444900163673 TestBowlingScoreCalculator.java ADD import org.u
 RefactoringAction 1444900206651 TestBowlingScoreCalculator.java REMOVE frame FIELD
 EditAction 1444900295026 TestBowlingScoreCalculator.java 353 1 3 1
 EditAction 1444900295197 Frame.java 986 6 10 0
+UnitTestCaseAction 1444900297085 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444900297085 TestBowlingScoreCalculator OK
+EditAction 1444900306863 TestBowlingScoreCalculator.java 353 1 3 1
