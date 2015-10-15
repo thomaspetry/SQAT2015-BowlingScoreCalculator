@@ -48,3 +48,6 @@ RefactoringAction 1444902581350 TestBowlingScoreCalculator.java RENAME testScore
 RefactoringAction 1444902582894 TestBowlingScoreCalculator.java RENAME testScoreOfAll()=>void testScoreOfAllFrames() METHOD
 EditAction 1444902676151 TestBowlingScoreCalculator.java 1160 4 16 4
 EditAction 1444902676260 Frame.java 987 6 11 0
+UnitTestCaseAction 1444902676541 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444902676541 TestBowlingScoreCalculator OK
+EditAction 1444902681861 TestBowlingScoreCalculator.java 1160 4 16 4
