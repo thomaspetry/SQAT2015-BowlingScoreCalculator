@@ -35,13 +35,14 @@ public class Frame {
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
 		BowlingGame game = new BowlingGame();
-
-		
+		if (game.frames.size() == 9)
+			return true;
 		return false;
 	}
 
 	//bonus throws
 	public int bonus(){
-		return 0;
+		BowlingGame game = new BowlingGame();
+		return game.actualbonus;
 	}
 }
