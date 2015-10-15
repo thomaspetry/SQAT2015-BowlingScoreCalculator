@@ -1,0 +1,19 @@
+FileOpenedAction 1444898011581 TestBowlingScoreCalculator.java 223 1 1 0
+FileOpenedAction 1444898348606 Frame.java 794 6 7 0
+FileOpenedAction 1444898379651 BowlingGame.java 584 5 2 0
+RefactoringAction 1444898494078 TestBowlingScoreCalculator.java RENAME test()=>void testScore() METHOD
+RefactoringAction 1444898517244 TestBowlingScoreCalculator.java RENAME testScore()=>void testScore4() METHOD
+RefactoringAction 1444898518289 TestBowlingScoreCalculator.java RENAME testScore4()=>void testScore4And() METHOD
+RefactoringAction 1444898519849 TestBowlingScoreCalculator.java RENAME testScore4And()=>void testScore4And5Return() METHOD
+RefactoringAction 1444898521393 TestBowlingScoreCalculator.java RENAME testScore4And5Return()=>void testScore4And5Returns9() METHOD
+RefactoringAction 1444898740371 TestBowlingScoreCalculator.java ADD import java.awt.Frame IMPORT
+RefactoringAction 1444899890485 TestBowlingScoreCalculator.java ADD Frame frame FIELD
+RefactoringAction 1444899912106 TestBowlingScoreCalculator.java ADD Frame frame/2 FIELD
+RefactoringAction 1444899916225 TestBowlingScoreCalculator.java REMOVE frame/2 FIELD
+RefactoringAction 1444899918799 TestBowlingScoreCalculator.java ADD Frame score FIELD
+RefactoringAction 1444899971823 TestBowlingScoreCalculator.java RENAME score=>int i FIELD
+RefactoringAction 1444900025363 TestBowlingScoreCalculator.java REMOVE i FIELD
+RefactoringAction 1444900149430 TestBowlingScoreCalculator.java REMOVE import java.awt.Frame IMPORT
+RefactoringAction 1444900163673 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.Frame IMPORT
+RefactoringAction 1444900206651 TestBowlingScoreCalculator.java REMOVE frame FIELD
+EditAction 1444900295026 TestBowlingScoreCalculator.java 353 1 3 1
