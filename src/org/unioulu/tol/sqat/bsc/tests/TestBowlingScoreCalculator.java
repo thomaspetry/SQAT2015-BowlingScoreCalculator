@@ -52,7 +52,7 @@ public class TestBowlingScoreCalculator {
 		Frame frame3 = new Frame(2, 3);
 		game.addFrame(frame3);
 		int score = game.score();
-		assertEquals(20,score);
+		assertEquals(22,score);
 	}
 	
 //	@Test
