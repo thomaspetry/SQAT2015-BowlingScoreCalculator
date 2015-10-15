@@ -35,3 +35,15 @@ RefactoringAction 1444900399620 TestBowlingScoreCalculator.java ADD void testSco
 RefactoringAction 1444900402194 TestBowlingScoreCalculator.java RENAME testScoreOfStrike()/2=>void testScoreOfS() METHOD
 RefactoringAction 1444900403224 TestBowlingScoreCalculator.java RENAME testScoreOfS()=>void testScoreOfSpare() METHOD
 EditAction 1444900408388 TestBowlingScoreCalculator.java 628 3 9 3
+UnitTestCaseAction 1444900408700 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444900408700 TestBowlingScoreCalculator OK
+RefactoringAction 1444901423685 TestBowlingScoreCalculator.java ADD void testScoreOfSpare()/2 METHOD
+RefactoringAction 1444901430892 TestBowlingScoreCalculator.java RENAME testScoreOfSpare()/2=>void testBonus() METHOD
+RefactoringAction 1444901433482 TestBowlingScoreCalculator.java RENAME testBonus()=>void testBonusCalculate() METHOD
+RefactoringAction 1444901468208 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.BowlingGame IMPORT
+RefactoringAction 1444902209725 BowlingGame.java ADD int actualbonus FIELD
+RefactoringAction 1444902568963 TestBowlingScoreCalculator.java REMOVE testBonusCalculate() METHOD
+RefactoringAction 1444902573612 TestBowlingScoreCalculator.java ADD void testScoreOfSpare()/2 METHOD
+RefactoringAction 1444902581350 TestBowlingScoreCalculator.java RENAME testScoreOfSpare()/2=>void testScoreOfAll() METHOD
+RefactoringAction 1444902582894 TestBowlingScoreCalculator.java RENAME testScoreOfAll()=>void testScoreOfAllFrames() METHOD
+EditAction 1444902676151 TestBowlingScoreCalculator.java 1160 4 16 4

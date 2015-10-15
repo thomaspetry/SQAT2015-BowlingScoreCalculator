@@ -5,26 +5,34 @@ import java.util.List;
 
 public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
-	private List<Frame> frames = new ArrayList<Frame>();
+	public List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
+	public int actualbonus = 0;
 	
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame){
-		//to be implemented
+		frames.add(frame);
 	}
 	
-	public void setBonus(int firstThrow, int secondThrow) {
-		//to be implemented
+	public void setBonus(int firstThrow, int secondThrow) {	
+		if (frames.get(frames.size()-1).isStrike())
+			actualbonus = firstThrow + secondThrow;
+		if (frames.get(frames.size()-1).isSpare())
+			actualbonus = firstThrow;
 	}
 	
 	public int score(){
-		//to be implemented
-		return 0;
+		int score = 0;
+		for (int i=0; i<frames.size(); i++) {
+			score += frames.get(i).score();
+		}
+		return score;
 	}
 	
 	public boolean isNextFrameBonus(){
-		//to be implemented
+		if (frames.get(frames.size()-1).isStrike() || frames.get(frames.size()-1).isSpare())
+		return true;
 		return false;
 	}
 }

@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 
 import org.junit.Test;
+import org.unioulu.tol.sqat.bsc.BowlingGame;
 import org.unioulu.tol.sqat.bsc.Frame;
 
 public class TestBowlingScoreCalculator {
@@ -29,5 +30,25 @@ public class TestBowlingScoreCalculator {
 		int score = frame.score();
 		assertEquals(10,score);
 	}
+	
+	@Test
+	public void testScoreOfAllFrames() {
+		BowlingGame game = new BowlingGame();
+		Frame frame1 = new Frame(5, 4);
+		game.addFrame(frame1);
+		Frame frame2 = new Frame(2, 3);
+		game.addFrame(frame2);
+		int score = game.score();
+		assertEquals(14,score);
+	}
+	
+//	@Test
+//	public void testBonusCalculate() {
+//		BowlingGame game = new BowlingGame();
+//		Frame frame = new Frame(6, 4);
+//		game.addFrame(frame);
+//		game.setBonus(2, 3);
+//		assertEquals(4,);
+//	}
 
 }
