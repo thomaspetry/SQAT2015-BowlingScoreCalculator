@@ -42,6 +42,7 @@ public class Frame {
 
 	//bonus throws
 	public int bonus(){
+		game.setBonus(firstThrow, secondThrow);
 		return game.actualbonus;
 	}
 }
