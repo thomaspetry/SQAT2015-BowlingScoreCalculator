@@ -45,12 +45,12 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void testScoreOfAllFramesWithSpare() {
 		BowlingGame game = new BowlingGame();
-		Frame frame1 = new Frame(5, 4);
+		Frame frame1 = new Frame(6, 4);
 		game.addFrame(frame1);
 		Frame frame2 = new Frame(2, 3);
 		game.addFrame(frame2);
 		int score = game.score();
-		assertEquals(16,score);
+		assertEquals(17,score);
 	}
 	
 //	@Test
