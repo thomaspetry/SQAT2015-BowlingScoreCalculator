@@ -16,9 +16,9 @@ public class BowlingGame {
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {	
-		if (frames.get(frames.size()).isStrike())
+		if (frames.get(frames.size()-1).isStrike())
 			actualbonus = firstThrow + secondThrow;
-		if (frames.get(frames.size()).isSpare())
+		if (frames.get(frames.size()-1).isSpare())
 			actualbonus = firstThrow;
 	}
 	
